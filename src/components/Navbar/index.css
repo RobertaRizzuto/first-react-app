@@ -1,0 +1,22 @@
+.main-navbar {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 20px 20px 0px;
+  height: 60px;
+}
+
+.logo {
+  height: 60px;
+  filter: invert();
+}
+
+.main-navbar ul {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  list-style-type: none;
+  
+}
+
+

@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.App {
+  margin: 0;
+
+  box-sizing: border-box;
+  background: rgb(195, 125, 93);
+  background: linear-gradient(
+    110deg,
+    rgba(195, 125, 93, 1) 0%,
+    rgba(223, 140, 168, 1) 42%,
+    rgba(42, 99, 164, 1) 77%
+  );
+
+  font-family: "Montserrat", sans-serif;
+}
+
+hr {
+  margin: 0px 10px;
+}
+
+.icon {
+  width: 30px;
+  filter: invert(1);
+  cursor: pointer;
+  transition: transform 0.35s;
+  padding-top: 10px;
+}
+.icon:hover {
+  transform: scale(1.2);
+}
+
+a {
+  color: rgb(255, 255, 255);
+}
+
+a:hover {
+  padding: 4px;
+  border-radius: 5px;
+  background-color: rgba(223, 140, 168, 0.651);
+}
+
+
+
+
+
+/* --------------------------------------PROVVISORIO------------------------------------------------ */
+.main-content {
+  height: 30vh;
+  background-color: white;
+  padding: 20px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
