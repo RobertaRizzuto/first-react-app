@@ -46,7 +46,7 @@ a:hover {
 
 /* --------------------------------------PROVVISORIO------------------------------------------------ */
 .main-content {
-  height: 30vh;
+  height: calc(100vh - 50vh);
   background-color: white;
   padding: 20px;
   border-top-left-radius: 50px;
